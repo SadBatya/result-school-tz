@@ -36,7 +36,7 @@ export const SectionHero = () => (
       </div>
     </div>
     <div className="relative mx-auto w-full max-w-[1230px] px-5 pt-[31px]">
-      <div className=" relative z-10 mx-auto grid  grid-cols-1 gap-[10px] md:grid-cols-2 md:gap-6 lg:grid-cols-3">
+      <div className="relative z-10 mx-auto grid  grid-cols-1 md:gap-[10px] md:grid-cols-2 md:gap-6 lg:grid-cols-3">
         {features.map(feature => (
           <div
             key={feature.id}

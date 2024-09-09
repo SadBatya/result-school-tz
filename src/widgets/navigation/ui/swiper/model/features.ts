@@ -1,8 +1,8 @@
 import type { StaticImageData } from 'next/image'
 
-import project_1 from '../ui/assets/project-1.jpg'
-import project_2 from '../ui/assets/project-2.jpg'
-import project_3 from '../ui/assets/project-3.jpg'
+import project_1 from '../assets/project-1.jpg'
+import project_2 from '../assets/project-2.jpg'
+import project_3 from '../assets/project-3.jpg'
 import { IFeatureItem } from './types'
 
 export const features: IFeatureItem[] = [

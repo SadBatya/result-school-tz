@@ -5,11 +5,11 @@ import { SectionFrontend } from './section-frontend';
 import { StudentProject } from './section-students-projects';
 
 export const Page = () => (
-  <>
+  <div className='bg-[#FBFBFB]'>
     <SectionHero />
     <SectionFrontend />
     <StudentProject />
-  </>
+  </div>
 );
 
 export const PageLayout = ({ children }: { children: ReactNode }) => (
