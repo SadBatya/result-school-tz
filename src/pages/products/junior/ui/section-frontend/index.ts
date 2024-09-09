@@ -1,0 +1,1 @@
+export { SectionFrontend } from './ui'
