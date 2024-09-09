@@ -30,16 +30,16 @@ export const SectionFrontend = () => {
           </div>
         </div>
         <div className="flex flex-row gap-6 pt-6">
-          {features.map((item) => (
+          {features.map(({id, icon, title, subtitle}) => (
             <div
-              key={item.id}
+              key={id}
               className="bg-[#F5F5F4] rounded-2xl px-6 py-8 flex-1"
             >
               <div className="pb-5">
-                <Image src={item.icon} quality={100} alt="" />
+                <Image src={icon} quality={100} alt="" />
               </div>
-              <p className="font-semibold text-lg">{item.title}</p>
-              <p>{item.subtitle}</p>
+              <p className="font-semibold text-lg">{title}</p>
+              <p>{subtitle}</p>
             </div>
           ))}
         </div>

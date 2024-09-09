@@ -12,22 +12,22 @@
     "postinstall": "husky install"
   },
   "dependencies": {
+    "focus-trap-react": "10.2.3",
+    "next": "14.2.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "next": "14.2.7",
-    "tailwind-merge": "2.3.0",
-    "focus-trap-react": "10.2.3"
+    "swiper": "^11.1.12",
+    "tailwind-merge": "2.3.0"
   },
   "devDependencies": {
-    "typescript": "5.4.5",
+    "@next/eslint-plugin-next": "12.3.1",
     "@types/node": "18.7.8",
     "@types/react": "18.2.25",
     "@types/react-dom": "18.2.0",
-    "postcss": "8.4.38",
-    "eslint": "8.57.0",
+    "@types/swiper": "^6.0.0",
     "@typescript-eslint/eslint-plugin": "7.12.0",
     "@typescript-eslint/parser": "7.12.0",
-    "@next/eslint-plugin-next": "12.3.1",
+    "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-import-resolver-typescript": "3.6.1",
     "eslint-plugin-import": "2.29.1",
@@ -40,9 +40,11 @@
     "eslint-plugin-unicorn": "53.0.0",
     "husky": "8.0.1",
     "lint-staged": "15.2.4",
-    "tailwindcss": "3.4.7",
+    "postcss": "8.4.38",
     "prettier": "3.2.5",
     "prettier-eslint": "15.0.1",
-    "prettier-plugin-tailwindcss": "0.5.12"
+    "prettier-plugin-tailwindcss": "0.5.12",
+    "tailwindcss": "3.4.7",
+    "typescript": "5.4.5"
   }
 }
