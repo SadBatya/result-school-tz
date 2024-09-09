@@ -7,10 +7,9 @@ export const SectionFrontend = () => {
   return (
     <section>
       <div className="relative mx-auto flex w-full max-w-[1230px] flex-col justify-between px-5 pt-[40px] sm:pt-[45px] md:mt-0 md:pt-[60px] lg:flex-col lg:pt-[80px] 2xl:pt-[97px]">
-        <h1 className="relative z-10 m-0 mb-4 w-auto font-heading text-[28px] font-extrabold leading-[110%] text-[#0F1214] md:mb-4 md:text-[46px] md:leading-[110%]">
+        <h1 className="relative z-10 mb-10 w-auto font-heading text-[28px] font-extrabold leading-[110%] text-[#0F1214] md:mb-10 md:text-[46px] md:leading-[110%]">
           Что делает фронтенд-разработчик?
         </h1>
-
         <div className="flex relative bg-[#F5F5F4] rounded-2xl ">
           <div className="pt-6 pb-6 pl-8">
             <Image src={calendarIcon} alt="" className="pb-4"/>
