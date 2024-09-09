@@ -4,6 +4,7 @@ import "swiper/css/pagination";
 import "swiper/swiper-bundle.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import SwiperCore from 'swiper'
 import { useRef } from "react";
 import { ButtonSlider } from "src/widgets";
 import { features } from "./model/features";
@@ -11,7 +12,7 @@ import Image from "next/image";
 
 
 export const SwiperStudentProject = () => {
-  const swiperRef = useRef(null);
+  const swiperRef = useRef<SwiperCore | null>(null);
   
   
   const goToSlide = (index: number) => {
