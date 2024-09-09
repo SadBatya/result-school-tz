@@ -2,7 +2,6 @@
 import { SwiperStudentProject } from "src/widgets";
 
 export const StudentProject = () => {
- 
   return (
     <section>
       <div className="relative mx-auto flex w-full max-w-[1230px] flex-col justify-between px-5 pt-[40px] sm:pt-[45px] md:mt-0 md:pt-[60px] lg:flex-col lg:pt-[80px] 2xl:pt-[97px]">

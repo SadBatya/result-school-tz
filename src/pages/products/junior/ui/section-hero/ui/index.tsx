@@ -1,7 +1,7 @@
-import Image from 'next/image';
-import peoples from './assets/peoples.png';
-import team from './assets/team.jpg';
-import { features } from '../model/features';
+import Image from "next/image";
+import peoples from "./assets/peoples.png";
+import team from "./assets/team.jpg";
+import { features } from "../model/features";
 
 export const SectionHero = () => (
   <section>
@@ -19,12 +19,13 @@ export const SectionHero = () => (
           </span>
         </div>
         <h1 className="relative z-10 m-0 mb-4 w-auto font-heading text-[28px] font-extrabold leading-[110%] text-[#0F1214] md:mb-4 md:text-[46px] md:leading-[110%]">
-          Станьте <span className="text-[#0A85D1]">frontend-разработчиком</span> с нуля и
-          гарантировано <span className="text-[#0A85D1]"> устройтесь на работу</span>
+          Станьте <span className="text-[#0A85D1]">frontend-разработчиком</span>{" "}
+          с нуля и гарантировано{" "}
+          <span className="text-[#0A85D1]"> устройтесь на работу</span>
         </h1>
         <p className="relative z-10 m-0 w-full font-heading text-lg font-medium leading-[135%] text-[#0F1214] md:text-xl md:leading-[135%] lg:max-w-[570px]">
-          За 9 месяцев освоите JavaScript, React, TypeScript и получите навыки востребованного
-          IT-специалиста.
+          За 9 месяцев освоите JavaScript, React, TypeScript и получите навыки
+          востребованного IT-специалиста.
         </p>
         <button className="relative z-10 mx-auto mt-6 inline-block rounded-[7px] bg-[#0A85D1] px-[15px] py-[12px] text-center text-[17px] font-medium leading-[160%] text-white lg:mx-0">
           Получить курс по HTML в подарок
@@ -36,8 +37,8 @@ export const SectionHero = () => (
       </div>
     </div>
     <div className="relative mx-auto w-full max-w-[1230px] px-5 pt-[31px]">
-      <div className="relative z-10 mx-auto grid  grid-cols-1 md:gap-[10px] md:grid-cols-2 md:gap-6 lg:grid-cols-3">
-        {features.map(feature => (
+      <div className="relative z-10 mx-auto grid  grid-cols-1 md:gap-[10px] md:grid-cols-2 lg:grid-cols-3">
+        {features.map((feature) => (
           <div
             key={feature.id}
             className="flex items-center gap-2.5 rounded-[10px] bg-[#F5F5F4] px-4 py-5 backdrop-blur-[11px] md:rounded-2xl md:px-5 md:py-6"
