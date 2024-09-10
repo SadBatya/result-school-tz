@@ -14,7 +14,6 @@ import Image from "next/image";
 export const SwiperStudentProject = () => {
   const swiperRef = useRef<SwiperCore | null>(null);
   
-  
   const goToSlide = (index: number) => {
     if (swiperRef.current) {
       swiperRef.current.slideTo(index);
