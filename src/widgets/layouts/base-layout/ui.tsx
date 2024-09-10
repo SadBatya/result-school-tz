@@ -11,7 +11,7 @@ interface IBaseLayoutProps {
 export const BaseLayout = ({ children, isDark = false, header, footer }: IBaseLayoutProps) => (
   <div
     className={twMerge(
-      'flex min-h-screen flex-col',
+      'flex max-w-5xl m-auto flex-col',
       isDark ? 'bg-black text-white' : 'bg-white text-black'
     )}
   >

@@ -22,7 +22,7 @@ export const SwiperStudentProject = () => {
 
   return (
     <>
-      <div className="bg-white border border-[#E6E9EC] rounded-2xl pl-4 pt-5 mb-8 drop-shadow-xl">
+      <div className="bg-white border border-[#E6E9EC] rounded-2xl pl-4 pt-5 pb-24 mb-8 drop-shadow-xl">
         <div className="flex gap-2">
           <p className="w-[13px] h-[13px] bg-[#E6E9EC] rounded-[10px]"></p>
           <p className="w-[13px] h-[13px] bg-[#E6E9EC] rounded-[10px]"></p>
@@ -41,13 +41,13 @@ export const SwiperStudentProject = () => {
         >
           {features.map((card) => (
             <SwiperSlide key={card.id}>
-              <div className="flex flex-col md:flex-row gap-10 py-14 px-8 md:px-24">
+              <div className="flex flex-col md:flex-row gap-10 my-10 md:mx-24">
                 <div className="flex-1">
-                  <Image src={card.img} quality={100} alt="" />
+                  <Image className="" src={card.img} quality={100} alt="" />
                 </div>
-                <div className="flex-1 text-[#36352F]">
-                  <h2 className="font-bold text-[26px] mt-0 md:mt-10">{card.title}</h2>
-                  <p className="text-[15px] mt-4">{card.subtitle}</p>
+                <div className="flex-1 text-[#36352F] font-heading mt-5">
+                  <h2 className="font-bold text-[26px] leading-tight">{card.title}</h2>
+                  <p className="text-[15px] mt-4 pr-12 leading-tight">{card.subtitle}</p>
                 </div>
               </div>
             </SwiperSlide>
