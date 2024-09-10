@@ -18,13 +18,13 @@ export const features: IFeatureItem[] = [
     title: "Работа по техзаданию, а не «из головы»",
     subtitle:
       "Фронтендеры работают по четкому техзаданию. Разработчикам платят за конкретные навыки и умение применять их в проектах.",
-    icon: shieldIcon as StaticImageData,
+    icon: substractIcon as StaticImageData,
   },
   {
     id: 2,
     title: "Постепенный и уверенный рост в доходе и должности",
     subtitle:
       "За 9 месяцев вы станете junior-разработчиком, еще за 9 месяцев — middle. А senior frontend-разработчиком реально стать за 3 года.",
-    icon: substractIcon as StaticImageData,
+    icon: shieldIcon as StaticImageData,
   },
 ];
